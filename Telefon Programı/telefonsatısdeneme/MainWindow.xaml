@@ -1,0 +1,47 @@
+﻿<Window x:Class="telefonsatısdeneme.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:telefonsatısdeneme"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <StackPanel>
+            <StackPanel.Background>
+                <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
+                    <GradientStop Color="#FF00DCFF" Offset="0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </StackPanel.Background>
+            <StackPanel.Effect>
+                <DropShadowEffect BlurRadius="20" ShadowDepth="2" Direction="180"/>
+            </StackPanel.Effect>
+            <RadioButton Width="80" Height="70" x:Name="RbTelefonEkle" ToolTip="Telefon Ekle" Style="{StaticResource {x:Static ToolBar.RadioButtonStyleKey}}">
+                <Image Source="/Images/TelefonEkle.png" Width="40" Height="75"/>
+            </RadioButton>
+            <RadioButton Width="80" Height="70" x:Name="RbTelefonListele" Style="{StaticResource {x:Static ToolBar.RadioButtonStyleKey}}">
+                <Image Source="/Images/TelefonListesi.png" Width="40" Height="75" ToolTip="Telefon Listele"/>
+            </RadioButton>
+            <RadioButton Width="80" Height="70" x:Name="RbMarkaEkle" Style="{StaticResource {x:Static ToolBar.RadioButtonStyleKey}}">
+                <Image Source="/Images/TelefonEkle.png" Width="40" Height="75" ToolTip="Telefon Listele"/>
+            </RadioButton>
+            <RadioButton Width="80" Height="70" x:Name="RbMarkaListele" Style="{StaticResource {x:Static ToolBar.RadioButtonStyleKey}}">
+                <Image Source="/Images/TelefonListesi.png" Width="40" Height="75" ToolTip="Telefon Listele"/>
+            </RadioButton>
+            <RadioButton Width="80" Height="70" x:Name="RbişletimSistemiEkle" Style="{StaticResource {x:Static ToolBar.RadioButtonStyleKey}}">
+                <Image Source="/Images/TelefonEkle.png" Width="40" Height="75" ToolTip="Telefon Listele"/>
+            </RadioButton>
+            <RadioButton Width="80" Height="70" x:Name="RbİşletimSistemiListele" Style="{StaticResource {x:Static ToolBar.RadioButtonStyleKey}}">
+                <Image Source="/Images/TelefonListesi.png" Width="40" Height="75" ToolTip="Telefon Listele"/>
+            </RadioButton>
+
+        </StackPanel>
+
+        <Frame NavigationUIVisibility="Hidden" x:Name="Frm" Grid.Column="1"/>
+    </Grid>
+</Window>

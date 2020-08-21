@@ -1,0 +1,56 @@
+﻿<Page x:Class="telefonsatısdeneme.Models.TelefonAyrıntılar"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:telefonsatısdeneme.Models"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="TelefonAyrıntılar" Background="White">
+
+    <Grid>
+        <Button Content="Geri" x:Name="BtnGeri" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10" Padding="15,3"/>
+
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,0,200,0">
+            <Image Source="{Binding TelefonResim}" Width="250" Height="400"/>
+        </StackPanel>
+
+        <StackPanel  VerticalAlignment="Center" HorizontalAlignment="Center" Margin="200,0,0,0">
+            <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
+                <TextBlock Text="Marka :"/>
+                <!--<TextBlock  x:Name="TbMarka" Margin="5,0" TextAlignment="Center"/>-->
+                <TextBlock  Text="{Binding MarkaAdı}"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
+                <TextBlock Text="Model :" />
+                <!--<TextBlock  x:Name="TbModel" Margin="5,0" TextAlignment="Center"/>-->
+                <TextBlock  Text="{Binding ModelAdı}"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
+                <TextBlock Text="İşletim Sistemi :"/>
+                <!--<TextBlock  x:Name="TbİşletimSistemi" Margin="5,0" TextAlignment="Center"/>-->
+                <TextBlock  Text="{Binding İşletimSistemi}"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
+                <TextBlock Text="Hafıza :" />
+                <!--<TextBlock  x:Name="TbHafıza" Margin="5,0" TextAlignment="Center"/>-->
+                <TextBlock  Text="{Binding Hafıza,StringFormat='{}{0} GB '}"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
+                <TextBlock Text="Ram :"/>
+                <!--<TextBlock  x:Name="TbRam" Margin="5,0" TextAlignment="Center"/>-->
+                <TextBlock  Text="{Binding Ram,StringFormat='{}{0} GB'}"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
+                <TextBlock Text="Batarya :"/>
+                <!--<TextBlock  x:Name="TbBatarya" Margin="5,0" TextAlignment="Center"/>-->
+                <TextBlock  Text="{Binding Batarya,StringFormat='{}{0} mAh'}"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
+                <TextBlock Text="Fiyat :"/>
+                <!--<TextBlock  x:Name="TbFiyat" Margin="5,0" TextAlignment="Center"/>-->
+                <TextBlock  Text="{Binding Fiyat,StringFormat='{}{0:c}'}"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>
