@@ -1,0 +1,60 @@
+﻿<Page x:Class="KıtaUlkeSehir.Views.UlkeDuzenlePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:KıtaUlkeSehir.Views"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="UlkeDuzenlePage">
+
+    <Grid>
+        <StackPanel Style="{StaticResource SpStyle}">
+            <TextBlock Text="Ülke Düzenle" TextAlignment="Center" FontWeight="Bold" FontSize="17"/>
+            <Separator Margin="0,10,0,15"/>
+
+            <StackPanel Style="{StaticResource SpStyle2}">
+                <TextBlock Text="Ülke Adı : "/>
+                <TextBox x:Name="TxAd" />
+            </StackPanel>
+
+            <StackPanel Style="{StaticResource SpStyle2}">
+                <TextBlock Text="Ülke Nüfusu : "/>
+                <TextBox x:Name="TxNufus" />
+            </StackPanel>
+
+            <StackPanel Style="{StaticResource SpStyle2}">
+                <TextBlock Text="Ülke Yüz Ölçümü : "/>
+                <TextBox x:Name="TxYuzOlcumu" />
+            </StackPanel>
+
+            <StackPanel Style="{StaticResource SpStyle2}">
+                <TextBlock Text="Ülke Şehirler : "/>
+                <TextBox x:Name="TxSehirler"  Width="200"/>
+            </StackPanel>
+
+            <StackPanel Style="{StaticResource SpStyle2}">
+                <TextBlock Text="Ülke Telefon Kodu : "/>
+                <TextBox x:Name="TxTelefonKodu" />
+            </StackPanel>
+
+            <StackPanel Style="{StaticResource SpStyle2}">
+                <TextBlock Text="Ülke Kodu : "/>
+                <TextBox x:Name="TxUlkeKodu" />
+            </StackPanel>
+
+            <StackPanel Style="{StaticResource SpStyle2}">
+                <TextBlock Text="Bulunduğu Kıta : "/>
+                <ComboBox x:Name="CbKıta" Width="100"/>
+            </StackPanel>
+
+            <StackPanel Style="{StaticResource SpStyle2}">
+                <TextBlock Text="Resim : "/>
+                <Button x:Name="BtnGözat" Width="50" Content="Gözat.."/>
+            </StackPanel>
+            <Image x:Name="ImgUlkeBayrak" Width="75" Height="75" Margin="0,10,0,0"/>
+            <Separator Margin="0,15,0,5"/>
+            <Button x:Name="BtnKaydet" Style="{StaticResource BtnStyle}" />
+        </StackPanel>
+    </Grid>
+</Page>

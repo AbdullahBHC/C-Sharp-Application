@@ -1,0 +1,34 @@
+﻿<Window x:Class="KıtaUlkeSehir.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KıtaUlkeSehir"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" WindowState="Maximized">
+    <Grid>
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Margin="0,20,0,0">
+            
+            <RadioButton  x:Name="RbKıtalarıListele" ToolTip="Kıtaları Listele" Width="150" Height="40" FontSize="15" FontWeight="SemiBold" Style="{StaticResource {x:Static ToolBar.RadioButtonStyleKey}}">
+               Kıtaları Listele
+            </RadioButton>
+
+            <RadioButton x:Name="RbÜlkeleriListele" ToolTip="Ülkeleri Listele" Width="150" Height="40" FontSize="15" FontWeight="SemiBold" Style="{StaticResource {x:Static ToolBar.RadioButtonStyleKey}}">
+               Ülkeleri Listele
+            </RadioButton>
+
+            <RadioButton x:Name="RbŞehirleriListele" ToolTip="Şehirleri Listele" Width="150" Height="40" FontSize="14" FontWeight="SemiBold" Style="{StaticResource {x:Static ToolBar.RadioButtonStyleKey}}">
+                Şehirleri Listele
+            </RadioButton>
+                        
+        </StackPanel>
+
+        <Frame  Grid.Column="1" NavigationUIVisibility="Hidden" x:Name="Frm"/>
+    </Grid>
+</Window>

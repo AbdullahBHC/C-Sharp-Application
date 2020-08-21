@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Views\KıtaAyrıntılarPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\KıtaDuzenlePage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\KıtalarıListelePage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\SehirAyrıntılarPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\SehirDuzenlePage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\SehirleriListelePage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\UlkeAyrıntılarPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\UlkeDuzenlePage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\UlkeleriListelePage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\KıtaAyrıntılarPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\KıtaDuzenlePage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\KıtalarıListelePage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\SehirAyrıntılarPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\SehirDuzenlePage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\SehirleriListelePage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\UlkeAyrıntılarPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\UlkeDuzenlePage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\UlkeleriListelePage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

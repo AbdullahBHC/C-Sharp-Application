@@ -1,0 +1,56 @@
+﻿<Page x:Class="KıtaUlkeSehir.Views.UlkeAyrıntılarPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:KıtaUlkeSehir.Views"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="UlkeAyrıntılarPage">
+
+    <Grid>
+        <Button Content="&lt; Geri &lt;" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="50" x:Name="BtnGeri"/>
+        <StackPanel Style="{StaticResource SpStyle}">
+            <StackPanel Style="{StaticResource SpStyle2}">
+                <TextBlock Text="Ülke Adı :" Margin="0,0,20,0"/>
+                <TextBlock x:Name="TbÜlke"/>
+            </StackPanel>
+
+            <StackPanel Style="{StaticResource SpStyle2}">
+                <TextBlock Text="Bulunduğu Kıta :" Margin="0,0,20,0"/>
+                <TextBlock x:Name="TbKıta"/>
+            </StackPanel>
+
+            <StackPanel Style="{StaticResource SpStyle2}">
+                <TextBlock Text="Ülke Nüfus :" Margin="0,0,20,0"/>
+                <TextBlock x:Name="TbNüfus"/>
+            </StackPanel>
+
+            <StackPanel Style="{StaticResource SpStyle2}">
+                <TextBlock Text="Ülke Yüz Ölçümü :" Margin="0,0,20,0"/>
+                <TextBlock x:Name="TbYuzOlcumu"/>
+            </StackPanel>
+
+            <StackPanel Style="{StaticResource SpStyle2}">
+                <TextBlock Text="Ülke Kodu :" Margin="0,0,20,0"/>
+                <TextBlock x:Name="TbUlkeKod"/>
+            </StackPanel>
+
+            <StackPanel Style="{StaticResource SpStyle2}">
+                <TextBlock Text="Ülke Telefon Kodu:" Margin="0,0,20,0"/>
+                <TextBlock x:Name="TbTelefonKodu"/>
+            </StackPanel>
+
+            <StackPanel Style="{StaticResource SpStyle2}">
+                <TextBlock Text="Ülke Şehirler :" Margin="0,0,20,0"/>
+                    <TextBlock x:Name="TbSehirler" Width="Auto"/>
+            </StackPanel>
+
+
+            <StackPanel Style="{StaticResource SpStyle2}">
+                <TextBlock Text="Ülke Resim :" VerticalAlignment="Top" Margin="0,0,20,0"/>
+                <Image x:Name="ImgÜlkeResim" Width="75" Height="75"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>
