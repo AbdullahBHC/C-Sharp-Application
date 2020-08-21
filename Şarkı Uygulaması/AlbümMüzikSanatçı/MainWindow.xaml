@@ -1,0 +1,53 @@
+﻿<Window x:Class="AlbümMüzikSanatçı.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AlbümMüzikSanatçı"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" WindowState="Maximized">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Column="1">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Margin="4" x:Name="TbTarih" Width="250" FontSize="20" FontWeight="Black"/>
+                <TextBlock Margin="4" x:Name="TbSaat" Width="100" FontSize="20" FontWeight="Black"/>
+            </StackPanel>
+        </Grid>
+        
+        <StackPanel Background="#444444" Width="100" Grid.RowSpan="2" Grid.Column="0" HorizontalAlignment="Left">
+            <StackPanel.Resources>
+                <Style TargetType="RadioButton" BasedOn="{StaticResource {x:Static ToolBar.RadioButtonStyleKey}}">
+                    <Setter Property="Padding" Value="15"/>
+                </Style>
+            </StackPanel.Resources>
+            
+            <RadioButton x:Name="RbMüzikListesi" ToolTip="Müzikleri Listele">
+                <Image Source="/Images/MüzikListesi.png"/>
+            </RadioButton>
+            
+            <RadioButton x:Name="RbMüzikEkle" ToolTip="Yeni Müzik Ekle">
+                <Image Source="/Images/MüzikEkle.png"/>
+            </RadioButton>
+            
+            <RadioButton x:Name="RbAlbümEkle" ToolTip="Yeni Albüm Ekle">
+                <Image Source="/Images/AlbümEkle.png"/>
+            </RadioButton>
+            
+            <RadioButton x:Name="RbSanatçıEkle" ToolTip="Yeni Sanatçı Ekle">
+                <Image Source="/Images/SanatçıEkle.png"/>
+            </RadioButton>
+        </StackPanel>
+
+        <Frame Grid.Column="1" NavigationUIVisibility="Hidden" x:Name="Frm" Grid.Row="1"/>
+    </Grid>
+</Window>
