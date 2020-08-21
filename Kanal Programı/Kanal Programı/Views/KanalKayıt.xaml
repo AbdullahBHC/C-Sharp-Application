@@ -1,0 +1,31 @@
+﻿<Page x:Class="Kanal_Programı.Views.KanalKayıt"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Kanal_Programı.Views"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="KanalKayıt" Style="{StaticResource PageStyle}">
+
+    <Grid>
+        <StackPanel>
+            <TextBlock Text="Kanal Ekle" Style="{StaticResource SüsStyle}"/>
+            <Separator Width="250" Margin="0,5,0,10"/>
+            <StackPanel Style="{StaticResource StackPanelStyle}">
+                <TextBlock Text="Kanal Adı :" Style="{StaticResource TextBlockStyle}"/>
+                <TextBox x:Name="TxKanalAdı" Style="{StaticResource TextBoxStyle}"/>
+            </StackPanel>
+
+            <StackPanel Style="{StaticResource StackPanelStyle}">
+                <TextBlock Text="Kanal Logo :" Style="{StaticResource TextBlockStyle}"/>
+                <Button x:Name="BtnGözat" Content="Gözat..." Width="50" Margin="20,0,30,0"/>
+            </StackPanel>
+            
+            <Image x:Name="ImgLogo" Width="75" Height="75" Margin="20"/>
+
+            <Separator Width="250" Margin="0,15,0,5"/>
+            <Button x:Name="BtnKaydet" Style="{StaticResource ButtonStyle}"/>
+        </StackPanel>
+    </Grid>
+</Page>

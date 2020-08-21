@@ -1,0 +1,43 @@
+D:\Öğrenci Dosyaları\526\11NTP\7-Mart\Kanal Programı\Kanal Programı\bin\Debug\Kanal Programı.exe.config
+D:\Öğrenci Dosyaları\526\11NTP\7-Mart\Kanal Programı\Kanal Programı\bin\Debug\Kanal Programı.exe
+D:\Öğrenci Dosyaları\526\11NTP\7-Mart\Kanal Programı\Kanal Programı\bin\Debug\Kanal Programı.pdb
+D:\Öğrenci Dosyaları\526\11NTP\7-Mart\Kanal Programı\Kanal Programı\obj\Debug\Kanal Programı.csprojResolveAssemblyReference.cache
+D:\Öğrenci Dosyaları\526\11NTP\7-Mart\Kanal Programı\Kanal Programı\obj\Debug\MainWindow.g.cs
+D:\Öğrenci Dosyaları\526\11NTP\7-Mart\Kanal Programı\Kanal Programı\obj\Debug\Views\KanalKayıt.g.cs
+D:\Öğrenci Dosyaları\526\11NTP\7-Mart\Kanal Programı\Kanal Programı\obj\Debug\Views\ProgramKayıt.g.cs
+D:\Öğrenci Dosyaları\526\11NTP\7-Mart\Kanal Programı\Kanal Programı\obj\Debug\Views\ProgramListele.g.cs
+D:\Öğrenci Dosyaları\526\11NTP\7-Mart\Kanal Programı\Kanal Programı\obj\Debug\App.g.cs
+D:\Öğrenci Dosyaları\526\11NTP\7-Mart\Kanal Programı\Kanal Programı\obj\Debug\Kanal Programı_MarkupCompile.cache
+D:\Öğrenci Dosyaları\526\11NTP\7-Mart\Kanal Programı\Kanal Programı\obj\Debug\Kanal Programı_MarkupCompile.lref
+D:\Öğrenci Dosyaları\526\11NTP\7-Mart\Kanal Programı\Kanal Programı\obj\Debug\App.baml
+D:\Öğrenci Dosyaları\526\11NTP\7-Mart\Kanal Programı\Kanal Programı\obj\Debug\MainWindow.baml
+D:\Öğrenci Dosyaları\526\11NTP\7-Mart\Kanal Programı\Kanal Programı\obj\Debug\Views\KanalKayıt.baml
+D:\Öğrenci Dosyaları\526\11NTP\7-Mart\Kanal Programı\Kanal Programı\obj\Debug\Views\ProgramKayıt.baml
+D:\Öğrenci Dosyaları\526\11NTP\7-Mart\Kanal Programı\Kanal Programı\obj\Debug\Views\ProgramListele.baml
+D:\Öğrenci Dosyaları\526\11NTP\7-Mart\Kanal Programı\Kanal Programı\obj\Debug\Kanal Programı.g.resources
+D:\Öğrenci Dosyaları\526\11NTP\7-Mart\Kanal Programı\Kanal Programı\obj\Debug\Kanal_Programı.Properties.Resources.resources
+D:\Öğrenci Dosyaları\526\11NTP\7-Mart\Kanal Programı\Kanal Programı\obj\Debug\Kanal Programı.csproj.GenerateResource.Cache
+D:\Öğrenci Dosyaları\526\11NTP\7-Mart\Kanal Programı\Kanal Programı\obj\Debug\Kanal Programı.csproj.CoreCompileInputs.cache
+D:\Öğrenci Dosyaları\526\11NTP\7-Mart\Kanal Programı\Kanal Programı\obj\Debug\Kanal Programı.exe
+D:\Öğrenci Dosyaları\526\11NTP\7-Mart\Kanal Programı\Kanal Programı\obj\Debug\Kanal Programı.pdb
+C:\Users\PC\Desktop\11NTP\7-Mart\Kanal Programı\Kanal Programı\bin\Debug\Kanal Programı.exe.config
+C:\Users\PC\Desktop\11NTP\7-Mart\Kanal Programı\Kanal Programı\bin\Debug\Kanal Programı.exe
+C:\Users\PC\Desktop\11NTP\7-Mart\Kanal Programı\Kanal Programı\bin\Debug\Kanal Programı.pdb
+C:\Users\PC\Desktop\11NTP\7-Mart\Kanal Programı\Kanal Programı\obj\Debug\Kanal Programı.csprojAssemblyReference.cache
+C:\Users\PC\Desktop\11NTP\7-Mart\Kanal Programı\Kanal Programı\obj\Debug\MainWindow.g.cs
+C:\Users\PC\Desktop\11NTP\7-Mart\Kanal Programı\Kanal Programı\obj\Debug\Views\KanalKayıt.g.cs
+C:\Users\PC\Desktop\11NTP\7-Mart\Kanal Programı\Kanal Programı\obj\Debug\Views\ProgramKayıt.g.cs
+C:\Users\PC\Desktop\11NTP\7-Mart\Kanal Programı\Kanal Programı\obj\Debug\Views\ProgramListele.g.cs
+C:\Users\PC\Desktop\11NTP\7-Mart\Kanal Programı\Kanal Programı\obj\Debug\App.g.cs
+C:\Users\PC\Desktop\11NTP\7-Mart\Kanal Programı\Kanal Programı\obj\Debug\Kanal Programı_MarkupCompile.cache
+C:\Users\PC\Desktop\11NTP\7-Mart\Kanal Programı\Kanal Programı\obj\Debug\Kanal Programı_MarkupCompile.lref
+C:\Users\PC\Desktop\11NTP\7-Mart\Kanal Programı\Kanal Programı\obj\Debug\App.baml
+C:\Users\PC\Desktop\11NTP\7-Mart\Kanal Programı\Kanal Programı\obj\Debug\MainWindow.baml
+C:\Users\PC\Desktop\11NTP\7-Mart\Kanal Programı\Kanal Programı\obj\Debug\Views\KanalKayıt.baml
+C:\Users\PC\Desktop\11NTP\7-Mart\Kanal Programı\Kanal Programı\obj\Debug\Views\ProgramKayıt.baml
+C:\Users\PC\Desktop\11NTP\7-Mart\Kanal Programı\Kanal Programı\obj\Debug\Views\ProgramListele.baml
+C:\Users\PC\Desktop\11NTP\7-Mart\Kanal Programı\Kanal Programı\obj\Debug\Kanal Programı.g.resources
+C:\Users\PC\Desktop\11NTP\7-Mart\Kanal Programı\Kanal Programı\obj\Debug\Kanal_Programı.Properties.Resources.resources
+C:\Users\PC\Desktop\11NTP\7-Mart\Kanal Programı\Kanal Programı\obj\Debug\Kanal Programı.csproj.GenerateResource.cache
+C:\Users\PC\Desktop\11NTP\7-Mart\Kanal Programı\Kanal Programı\obj\Debug\Kanal Programı.exe
+C:\Users\PC\Desktop\11NTP\7-Mart\Kanal Programı\Kanal Programı\obj\Debug\Kanal Programı.pdb
