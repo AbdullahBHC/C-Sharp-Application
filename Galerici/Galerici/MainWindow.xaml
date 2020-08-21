@@ -1,0 +1,58 @@
+﻿<Window x:Class="Galerici.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Galerici"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="800" WindowState="Maximized" WindowStyle="None" x:Name="Wnd">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+
+        <Grid Grid.ColumnSpan="2" Margin="5,1,0,0" Width="1900">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="300"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <Label x:Name="LblTarih" FontSize="15" FontWeight="SemiBold"/>
+            <Label x:Name="LblSaat" FontSize="15" FontWeight="SemiBold" Grid.Column="1"/>
+            
+            <Button x:Name="BtnKapat" Background="Transparent" Content="X" Margin="500,3,3,3" Width="70" Height="30" Grid.Column="6" HorizontalAlignment="Right" BorderThickness="2" BorderBrush="Black"/>
+
+            <Button x:Name="BtnKırmızıArkaPlan" Background="Red" Width="50" Padding="5" Margin="10,0,0,0" Height="30" Grid.Column="5" HorizontalAlignment="Right" BorderThickness="2" BorderBrush="Black"/>
+            <Button x:Name="BtnBeyazArkaPlan" Background="White" Width="50" Padding="5" Margin="10,0,0,0" Height="30" Grid.Column="4" HorizontalAlignment="Right" BorderThickness="2" BorderBrush="Black"/>
+            <Button x:Name="BtnSiyahArkaPlan" Background="Black" Width="50" Padding="5" Height="30" Grid.Column="3" HorizontalAlignment="Right" BorderThickness="2" BorderBrush="Black"/>
+
+        </Grid>
+
+        <StackPanel Grid.Row="1">
+            <RadioButton x:Name="RbGaleriListele" Style="{StaticResource {x:Static ToolBar.RadioButtonStyleKey}}" ToolTip="Galerileri Listele">
+                <Image Source="Images/MainWindowPictures/Galeri2.png"/>
+            </RadioButton>
+            <RadioButton x:Name="RbGaleriEkle" Style="{StaticResource {x:Static ToolBar.RadioButtonStyleKey}}" ToolTip="Yeni Galeri Ekle">
+                <Image Source="Images/MainWindowPictures/Galeri Ekle2.png"/>
+            </RadioButton>
+            <RadioButton x:Name="RbArabaEkle" Style="{StaticResource {x:Static ToolBar.RadioButtonStyleKey}}" ToolTip="Yeni Araba Ekle">
+                <Image Source="Images/MainWindowPictures/Araba Ekle2.png" />
+            </RadioButton>
+        </StackPanel>
+
+        <Frame Grid.Column="1" Grid.Row="1" x:Name="Frm" NavigationUIVisibility="Hidden" Background="Transparent"/>
+
+    </Grid>
+</Window>

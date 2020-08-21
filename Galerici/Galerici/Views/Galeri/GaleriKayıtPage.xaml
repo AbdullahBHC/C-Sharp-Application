@@ -1,0 +1,81 @@
+﻿<Page x:Class="Galerici.Views.GaleriKayıtPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Galerici.Views"
+      mc:Ignorable="d" 
+      d:DesignHeight="650" d:DesignWidth="800"
+      Title="GaleriKayıtPage" Background="White">
+
+    <Grid>
+        <StackPanel Style="{StaticResource AnaStackPanelStyle}">
+
+            <StackPanel Orientation="Vertical">
+                <TextBlock Text="G A L E R İ  K A Y I T" Style="{StaticResource TextBlockSüsStyle}"/>
+                <Separator Style="{StaticResource FirstSeparator}"/>
+            </StackPanel>
+
+            <StackPanel Style="{StaticResource StackPanelStyle}">
+                <TextBlock Text="İsim : " Style="{StaticResource TextBlockStyle}"/>
+                <TextBox x:Name="Txİsim"/>
+            </StackPanel>
+
+            <StackPanel Style="{StaticResource StackPanelStyle}">
+                <TextBlock Text="Sahibi : " Style="{StaticResource TextBlockStyle}"/>
+                <TextBox x:Name="TxSahibi"/>
+            </StackPanel>
+
+            <StackPanel Style="{StaticResource StackPanelStyle}">
+                <TextBlock Text="Araba Sayısı : " Style="{StaticResource TextBlockStyle}"/>
+                <TextBox x:Name="TxArabaSayısı"/>
+            </StackPanel>
+
+            <StackPanel Style="{StaticResource StackPanelStyle}">
+                <TextBlock Text="Konum : " Style="{StaticResource TextBlockStyle}"/>
+                <TextBox x:Name="TxKonum"/>
+            </StackPanel>
+
+            <StackPanel Style="{StaticResource StackPanelStyle}">
+                <TextBlock Text="Kiralık Araç - Model : " Style="{StaticResource TextBlockStyle}"/>
+                <TextBox x:Name="TxKiralıkAraçFiyat"/>
+            </StackPanel>
+
+            <StackPanel Style="{StaticResource StackPanelStyle}">
+                <TextBlock Text="Kiralık Araç - Fiyat : " Style="{StaticResource TextBlockStyle}"/>
+                <TextBox x:Name="TxKiralıkAraçModel"/>
+            </StackPanel>
+
+            <StackPanel Style="{StaticResource StackPanelStyle}">
+                <TextBlock Text="Satılık Araç - Model : " Style="{StaticResource TextBlockStyle}"/>
+                <TextBox x:Name="TxSatılıkAraçModel"/>
+            </StackPanel>
+
+            <StackPanel Style="{StaticResource StackPanelStyle}">
+                <TextBlock Text="Satılık Araç - Fiyat : " Style="{StaticResource TextBlockStyle}"/>
+                <TextBox x:Name="TxSatılıkAraçFiyat"/>
+            </StackPanel>
+
+            <StackPanel Style="{StaticResource StackPanelStyle}" HorizontalAlignment="Left">
+                <TextBlock Text="Resim : " Style="{StaticResource TextBlockStyle}"/>
+                <Button x:Name="BtnGözat" Content="Gözat..." Width="50" HorizontalAlignment="Left" BorderBrush="Black" BorderThickness="1.250"/>
+            </StackPanel>
+
+            <StackPanel x:Name="SpGaleriResim" Orientation="Vertical" Visibility="Collapsed">
+                <Image x:Name="İmgGaleri" Margin="100,30"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Vertical" Margin="0,30,0,0">
+                <Separator Style="{StaticResource LastSeparator}"/>
+
+                <StackPanel Style="{StaticResource StackPanelStyle}">
+                    <Button x:Name="BtnTemizle" Width="50" Style="{StaticResource ClearButton}" Margin="0,0,25,0"/>
+                    <Button x:Name="BtnKaydet" Style="{StaticResource SaveButton}"/>
+                </StackPanel>
+
+            </StackPanel>
+
+        </StackPanel>
+
+    </Grid>
+</Page>

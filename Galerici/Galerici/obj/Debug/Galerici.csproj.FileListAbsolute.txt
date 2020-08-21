@@ -1,0 +1,48 @@
+C:\Users\PC\Desktop\test\Galerici\Galerici\bin\Debug\Galerici.exe.config
+C:\Users\PC\Desktop\test\Galerici\Galerici\bin\Debug\Galerici.exe
+C:\Users\PC\Desktop\test\Galerici\Galerici\bin\Debug\Galerici.pdb
+C:\Users\PC\Desktop\test\Galerici\Galerici\obj\Debug\MainWindow.g.cs
+C:\Users\PC\Desktop\test\Galerici\Galerici\obj\Debug\App.g.cs
+C:\Users\PC\Desktop\test\Galerici\Galerici\obj\Debug\Galerici_MarkupCompile.cache
+C:\Users\PC\Desktop\test\Galerici\Galerici\obj\Debug\Galerici_MarkupCompile.lref
+C:\Users\PC\Desktop\test\Galerici\Galerici\obj\Debug\MainWindow.baml
+C:\Users\PC\Desktop\test\Galerici\Galerici\obj\Debug\Galerici.g.resources
+C:\Users\PC\Desktop\test\Galerici\Galerici\obj\Debug\Galerici.Properties.Resources.resources
+C:\Users\PC\Desktop\test\Galerici\Galerici\obj\Debug\Galerici.csproj.GenerateResource.cache
+C:\Users\PC\Desktop\test\Galerici\Galerici\obj\Debug\Galerici.exe
+C:\Users\PC\Desktop\test\Galerici\Galerici\obj\Debug\Galerici.pdb
+C:\Users\PC\Desktop\test\Galerici\Galerici\obj\Debug\Views\Arabalar\ArabaKayıtPage.g.cs
+C:\Users\PC\Desktop\test\Galerici\Galerici\obj\Debug\Views\Arabalar\ArabaListelePage.g.cs
+C:\Users\PC\Desktop\test\Galerici\Galerici\obj\Debug\Views\Galeri\GaleriKayıtPage.g.cs
+C:\Users\PC\Desktop\test\Galerici\Galerici\obj\Debug\Views\Galeri\GaleriListelePage.g.cs
+C:\Users\PC\Desktop\test\Galerici\Galerici\obj\Debug\Views\Arabalar\ArabaKayıtPage.baml
+C:\Users\PC\Desktop\test\Galerici\Galerici\obj\Debug\Views\Arabalar\ArabaListelePage.baml
+C:\Users\PC\Desktop\test\Galerici\Galerici\obj\Debug\Views\Galeri\GaleriKayıtPage.baml
+C:\Users\PC\Desktop\test\Galerici\Galerici\obj\Debug\Views\Galeri\GaleriListelePage.baml
+C:\Users\PC\Desktop\test\Galerici\Galerici\obj\Debug\App.baml
+C:\Users\AbdullahBHC\Desktop\VS Projeler\Galerici\Galerici\bin\Debug\Galerici.exe.config
+C:\Users\AbdullahBHC\Desktop\VS Projeler\Galerici\Galerici\bin\Debug\Galerici.exe
+C:\Users\AbdullahBHC\Desktop\VS Projeler\Galerici\Galerici\bin\Debug\Galerici.pdb
+C:\Users\AbdullahBHC\Desktop\VS Projeler\Galerici\Galerici\obj\Debug\Galerici.csprojAssemblyReference.cache
+C:\Users\AbdullahBHC\Desktop\VS Projeler\Galerici\Galerici\obj\Debug\MainWindow.g.cs
+C:\Users\AbdullahBHC\Desktop\VS Projeler\Galerici\Galerici\obj\Debug\Views\Arabalar\ArabaKayıtPage.g.cs
+C:\Users\AbdullahBHC\Desktop\VS Projeler\Galerici\Galerici\obj\Debug\Views\Galeri\GaleriKayıtPage.g.cs
+C:\Users\AbdullahBHC\Desktop\VS Projeler\Galerici\Galerici\obj\Debug\Views\Galeri\GaleriListelePage.g.cs
+C:\Users\AbdullahBHC\Desktop\VS Projeler\Galerici\Galerici\obj\Debug\App.g.cs
+C:\Users\AbdullahBHC\Desktop\VS Projeler\Galerici\Galerici\obj\Debug\Galerici_MarkupCompile.cache
+C:\Users\AbdullahBHC\Desktop\VS Projeler\Galerici\Galerici\obj\Debug\Galerici_MarkupCompile.lref
+C:\Users\AbdullahBHC\Desktop\VS Projeler\Galerici\Galerici\obj\Debug\App.baml
+C:\Users\AbdullahBHC\Desktop\VS Projeler\Galerici\Galerici\obj\Debug\MainWindow.baml
+C:\Users\AbdullahBHC\Desktop\VS Projeler\Galerici\Galerici\obj\Debug\Views\Arabalar\ArabaKayıtPage.baml
+C:\Users\AbdullahBHC\Desktop\VS Projeler\Galerici\Galerici\obj\Debug\Views\Galeri\GaleriKayıtPage.baml
+C:\Users\AbdullahBHC\Desktop\VS Projeler\Galerici\Galerici\obj\Debug\Views\Galeri\GaleriListelePage.baml
+C:\Users\AbdullahBHC\Desktop\VS Projeler\Galerici\Galerici\obj\Debug\Galerici.g.resources
+C:\Users\AbdullahBHC\Desktop\VS Projeler\Galerici\Galerici\obj\Debug\Galerici.Properties.Resources.resources
+C:\Users\AbdullahBHC\Desktop\VS Projeler\Galerici\Galerici\obj\Debug\Galerici.csproj.GenerateResource.cache
+C:\Users\AbdullahBHC\Desktop\VS Projeler\Galerici\Galerici\obj\Debug\Galerici.csproj.CoreCompileInputs.cache
+C:\Users\AbdullahBHC\Desktop\VS Projeler\Galerici\Galerici\obj\Debug\Galerici.exe
+C:\Users\AbdullahBHC\Desktop\VS Projeler\Galerici\Galerici\obj\Debug\Galerici.pdb
+C:\Users\AbdullahBHC\Desktop\VS Projeler\Galerici\Galerici\obj\Debug\Views\Arabalar\ArabaAyrıntılarPage.g.cs
+C:\Users\AbdullahBHC\Desktop\VS Projeler\Galerici\Galerici\obj\Debug\Views\Arabalar\ArabaAyrıntılarPage.baml
+C:\Users\AbdullahBHC\Desktop\VS Projeler\Galerici\Galerici\obj\Debug\Views\GaleriAyrıntılarPage.g.cs
+C:\Users\AbdullahBHC\Desktop\VS Projeler\Galerici\Galerici\obj\Debug\Views\GaleriAyrıntılarPage.baml
